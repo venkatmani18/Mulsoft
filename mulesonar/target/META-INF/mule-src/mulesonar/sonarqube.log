@@ -1,0 +1,23 @@
+
+C:\Mule\workspace1\mulesonar>SET JAVA_HOME="C:\JAVA" 
+[INFO] Scanning for projects...
+[WARNING] The POM for org.apache.maven.plugins:maven-site-plugin:jar:3.6.1 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.6.1: Plugin org.apache.maven.plugins:maven-site-plugin:3.6.1 or one of its dependencies could not be resolved: org.apache.maven.plugins:maven-site-plugin:jar:3.6.1 was not found in https://repository.mulesoft.org/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of mulesoft-releases has elapsed or updates are forced
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.9.1.2184 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.1.2184: SonarQube plugin was moved to SonarSource organisation
+[INFO] 
+[INFO] ----------------------< com.mycompany:mulesonar >-----------------------
+[INFO] Building mulesonar 1.0.0-SNAPSHOT
+[INFO] --------------------------[ mule-application ]--------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean-1) @ mulesonar ---
+[INFO] Deleting C:\Mule\workspace1\mulesonar\target
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:clean (default-clean) @ mulesonar ---
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:validate (default-validate) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:initialize (default-initialize) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-sources (default-generate-sources) @ mulesonar ---
